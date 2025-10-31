@@ -1,0 +1,417 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "menu" [ref=e9] [cursor=pointer]:
+            - img "menu" [ref=e11]:
+              - img [ref=e12]
+          - button "Edu academy" [ref=e18] [cursor=pointer]:
+            - generic [ref=e19]: Edu academy
+        - generic [ref=e21]:
+          - textbox "Search" [disabled] [ref=e23]
+          - separator [ref=e25]
+          - generic [ref=e27]:
+            - button "setting" [ref=e29] [cursor=pointer]:
+              - img "setting" [ref=e31]:
+                - img [ref=e32]
+            - img "bell" [ref=e35]:
+              - img [ref=e36]
+          - separator [ref=e39]
+          - generic [ref=e41]:
+            - img "user" [ref=e44]:
+              - img [ref=e45]
+            - generic [ref=e48]:
+              - strong [ref=e51]: dung.do.ky...
+              - strong [ref=e54]:
+                - img "down" [ref=e55]:
+                  - img [ref=e56]
+    - generic [ref=e58]:
+      - complementary [ref=e59]:
+        - menu [ref=e61]:
+          - menuitem "dashboard Dashboard" [ref=e62] [cursor=pointer]:
+            - img "dashboard" [ref=e63]:
+              - img [ref=e64]
+            - generic [ref=e66]: Dashboard
+          - menuitem "inbox Order" [expanded] [ref=e67] [cursor=pointer]:
+            - img "inbox" [ref=e68]:
+              - img [ref=e69]
+            - generic [ref=e71]: Order
+          - menu [ref=e72]:
+            - menuitem "My Orders bell 3 1" [ref=e73] [cursor=pointer]:
+              - generic [ref=e75]:
+                - text: My Orders
+                - generic [ref=e76]:
+                  - img "bell" [ref=e77]:
+                    - img [ref=e78]
+                  - superscript [ref=e80]:
+                    - generic [ref=e81]:
+                      - generic [ref=e82]: "3"
+                      - generic [ref=e83]: "1"
+          - menuitem "dropbox Products" [expanded] [ref=e84] [cursor=pointer]:
+            - img "dropbox" [ref=e85]:
+              - img [ref=e86]
+            - generic [ref=e88]: Products
+          - menu [ref=e89]:
+            - menuitem "My Products bell 3" [ref=e90] [cursor=pointer]:
+              - generic [ref=e92]:
+                - text: My Products
+                - generic [ref=e93]:
+                  - img "bell" [ref=e94]:
+                    - img [ref=e95]
+                  - superscript [ref=e97]:
+                    - generic [ref=e99]: "3"
+            - menuitem "Create Products" [ref=e100] [cursor=pointer]:
+              - generic [ref=e101]: Create Products
+          - menuitem "gift Marketing Centre" [expanded] [ref=e102] [cursor=pointer]:
+            - img "gift" [ref=e103]:
+              - img [ref=e104]
+            - generic [ref=e106]: Marketing Centre
+          - menu [ref=e107]:
+            - menuitem "Amaze Ads" [ref=e108] [cursor=pointer]:
+              - generic [ref=e109]: Amaze Ads
+            - menuitem "Vouchers" [ref=e110] [cursor=pointer]:
+              - generic [ref=e111]: Vouchers
+            - menuitem "Voucher Created by Amaze Admin" [ref=e112] [cursor=pointer]:
+              - generic [ref=e113]: Voucher Created by Amaze Admin
+            - menuitem "Discount" [ref=e114] [cursor=pointer]:
+              - generic [ref=e115]: Discount
+            - menuitem "Shipping Fee" [ref=e116] [cursor=pointer]:
+              - generic [ref=e117]: Shipping Fee
+            - menuitem "Add-on Deal" [ref=e118] [cursor=pointer]:
+              - generic [ref=e119]: Add-on Deal
+            - menuitem "Bundle Deal" [ref=e120] [cursor=pointer]:
+              - generic [ref=e121]: Bundle Deal
+            - menuitem "Affiliate Marketing" [ref=e122] [cursor=pointer]:
+              - generic [ref=e123]: Affiliate Marketing
+            - menuitem "Flash Sale" [ref=e124] [cursor=pointer]:
+              - generic [ref=e125]: Flash Sale
+            - menuitem "Cart Rule" [ref=e126] [cursor=pointer]:
+              - generic [ref=e127]: Cart Rule
+            - menuitem "Point Campaign" [ref=e128] [cursor=pointer]:
+              - generic [ref=e129]: Point Campaign
+            - menuitem "Amaze UTM Tracking Generator" [ref=e130] [cursor=pointer]:
+              - generic [ref=e131]: Amaze UTM Tracking Generator
+            - menuitem "Amaze UTM Tracking Report" [ref=e132] [cursor=pointer]:
+              - generic [ref=e133]: Amaze UTM Tracking Report
+            - menuitem "Campaign bell 1" [ref=e134] [cursor=pointer]:
+              - generic [ref=e136]:
+                - text: Campaign
+                - generic [ref=e137]:
+                  - img "bell" [ref=e138]:
+                    - img [ref=e139]
+                  - superscript [ref=e141]:
+                    - generic [ref=e143]: "1"
+          - menuitem "dollar Finance" [expanded] [ref=e144] [cursor=pointer]:
+            - img "dollar" [ref=e145]:
+              - img [ref=e146]
+            - generic [ref=e148]: Finance
+          - menu [ref=e149]:
+            - menuitem "My Statement" [ref=e150] [cursor=pointer]:
+              - generic [ref=e151]: My Statement
+            - menuitem "Bank Accounts" [ref=e152] [cursor=pointer]:
+              - generic [ref=e153]: Bank Accounts
+            - menuitem "Withholding Tax" [ref=e154] [cursor=pointer]:
+              - generic [ref=e155]: Withholding Tax
+            - menuitem "Finance Report" [ref=e156] [cursor=pointer]:
+              - generic [ref=e157]: Finance Report
+          - menuitem "area-chart Data" [expanded] [ref=e158] [cursor=pointer]:
+            - img "area-chart" [ref=e159]:
+              - img [ref=e160]
+            - generic [ref=e162]: Data
+          - menu [ref=e163]:
+            - menuitem "Dashboard" [ref=e164] [cursor=pointer]:
+              - generic [ref=e165]: Dashboard
+            - menuitem "Bundle Performance" [ref=e166] [cursor=pointer]:
+              - generic [ref=e167]: Bundle Performance
+            - menuitem "Discount Performance" [ref=e168] [cursor=pointer]:
+              - generic [ref=e169]: Discount Performance
+            - menuitem "Voucher Performance" [ref=e170] [cursor=pointer]:
+              - generic [ref=e171]: Voucher Performance
+            - menuitem "Sale Composition" [ref=e172] [cursor=pointer]:
+              - generic [ref=e173]: Sale Composition
+            - menuitem "Traffic Overview" [ref=e174] [cursor=pointer]:
+              - generic [ref=e175]: Traffic Overview
+            - menuitem "Product Overview" [ref=e176] [cursor=pointer]:
+              - generic [ref=e177]: Product Overview
+            - menuitem "Product Performance" [ref=e178] [cursor=pointer]:
+              - generic [ref=e179]: Product Performance
+            - menuitem "Add-on Performance" [ref=e180] [cursor=pointer]:
+              - generic [ref=e181]: Add-on Performance
+            - menuitem "Sale Overview" [ref=e182] [cursor=pointer]:
+              - generic [ref=e183]: Sale Overview
+            - menuitem "Flash Sale Performance" [ref=e184] [cursor=pointer]:
+              - generic [ref=e185]: Flash Sale Performance
+            - menuitem "Promotion Performance" [ref=e186] [cursor=pointer]:
+              - generic [ref=e187]: Promotion Performance
+          - menuitem "shop Shop" [expanded] [ref=e188] [cursor=pointer]:
+            - img "shop" [ref=e189]:
+              - img [ref=e190]
+            - generic [ref=e192]: Shop
+          - menu [ref=e193]:
+            - menuitem "Shop Information" [ref=e194] [cursor=pointer]:
+              - generic [ref=e195]: Shop Information
+            - menuitem "Shop Decoration" [ref=e196] [cursor=pointer]:
+              - generic [ref=e197]: Shop Decoration
+            - menuitem "Shop Collection" [ref=e198] [cursor=pointer]:
+              - generic [ref=e199]: Shop Collection
+          - menuitem "setting Setting" [expanded] [ref=e200] [cursor=pointer]:
+            - img "setting" [ref=e201]:
+              - img [ref=e202]
+            - generic [ref=e204]: Setting
+          - menu [ref=e205]:
+            - menuitem "My Address" [ref=e206] [cursor=pointer]:
+              - generic [ref=e207]: My Address
+            - menuitem "Shop Setting" [ref=e208] [cursor=pointer]:
+              - generic [ref=e209]: Shop Setting
+            - menuitem "Profile" [ref=e210] [cursor=pointer]:
+              - generic [ref=e211]: Profile
+            - menuitem "Account Management" [ref=e212] [cursor=pointer]:
+              - generic [ref=e213]: Account Management
+      - main [ref=e214]:
+        - generic [ref=e215]:
+          - generic [ref=e217]:
+            - generic [ref=e220]:
+              - navigation [ref=e221]:
+                - list [ref=e222]:
+                  - listitem [ref=e223]:
+                    - link "Portal" [ref=e225] [cursor=pointer]:
+                      - /url: /portal
+                  - listitem [ref=e226]: /
+                  - listitem [ref=e227]:
+                    - link "My Products" [ref=e229] [cursor=pointer]:
+                      - /url: /portal/product/list
+                  - listitem [ref=e230]: /
+                  - listitem [ref=e231]: Create Product
+              - heading "Create Product" [level=3] [ref=e232]
+            - generic [ref=e237]:
+              - list [ref=e240]:
+                - listitem [ref=e241]:
+                  - link "Basic information" [ref=e242] [cursor=pointer]:
+                    - /url: /portal/product/create#basic-form
+                - listitem [ref=e243]:
+                  - link "Specification" [ref=e244] [cursor=pointer]:
+                    - /url: /portal/product/create#spec-form
+                - listitem [ref=e245]:
+                  - link "Sales information" [ref=e246] [cursor=pointer]:
+                    - /url: /portal/product/create#sale-form
+                - listitem [ref=e247]:
+                  - link "Shipping" [ref=e248] [cursor=pointer]:
+                    - /url: /portal/product/create#shipping-form
+                - listitem [ref=e249]:
+                  - link "Others" [ref=e250] [cursor=pointer]:
+                    - /url: /portal/product/create#product-form-others
+              - generic [ref=e251]:
+                - generic [ref=e253]:
+                  - heading "Basic information" [level=4] [ref=e255]
+                  - generic [ref=e258]:
+                    - generic [ref=e260]: "* Product Images"
+                    - generic [ref=e261]:
+                      - text: 1:1 Images
+                      - generic [ref=e262]:
+                        - generic [ref=e264]:
+                          - button "481b0541-b603-11f0-aa35-1af6308fc6b7-0.jpg Crop photo View photo Delete photo" [ref=e266]:
+                            - generic [ref=e269]:
+                              - img "481b0541-b603-11f0-aa35-1af6308fc6b7-0.jpg" [ref=e271]
+                              - generic [ref=e272]:
+                                - button "Crop photo" [ref=e273] [cursor=pointer]:
+                                  - img "Crop photo" [ref=e275]:
+                                    - img [ref=e276]
+                                - button "View photo" [ref=e278] [cursor=pointer]:
+                                  - img "View photo" [ref=e280]:
+                                    - img "eye" [ref=e281]:
+                                      - img [ref=e282]
+                                - button "Delete photo" [ref=e284] [cursor=pointer]:
+                                  - img "Delete photo" [ref=e286]:
+                                    - img "delete" [ref=e287]:
+                                      - img [ref=e288]
+                          - generic [ref=e292] [cursor=pointer]:
+                            - img [ref=e293]:
+                              - img [ref=e294]
+                            - generic [ref=e298]: Add Image (1/9)
+                        - status [ref=e299]
+                    - generic [ref=e301]: Product Video
+                    - generic [ref=e303]:
+                      - generic [ref=e309] [cursor=pointer]:
+                        - img "video-camera-add" [ref=e310]:
+                          - img [ref=e311]
+                        - generic [ref=e315]: Add Video
+                      - list [ref=e317]:
+                        - listitem [ref=e318]: "Size: Max 30Mb, resolution should not exceed 1280x1280px"
+                        - listitem [ref=e319]: "Duration: 10s-60s"
+                        - listitem [ref=e320]: "Format: MP4"
+                    - generic [ref=e322]: "* Product Name"
+                    - generic [ref=e324]:
+                      - textbox "* Product Name" [ref=e325]:
+                        - /placeholder: Input
+                      - generic [ref=e327]: 0 / 255
+                    - generic [ref=e329]: "* Product Name -TH"
+                    - generic [ref=e331]:
+                      - textbox "* Product Name -TH" [ref=e332]:
+                        - /placeholder: Input
+                      - generic [ref=e334]: 0 / 255
+                    - generic [ref=e336]: "* Category"
+                    - generic [ref=e338]:
+                      - textbox "Please set category" [ref=e339]
+                      - img "down" [ref=e341]:
+                        - img [ref=e342]
+                    - generic [ref=e345]: "* Category -TH"
+                    - generic [ref=e347]:
+                      - textbox "กรุณาตั้งค่าหมวดหมู่" [ref=e348]
+                      - img "down" [ref=e350]:
+                        - img [ref=e351]
+                    - generic [ref=e354]: "* Product Description"
+                    - generic [ref=e355]:
+                      - generic [ref=e357]:
+                        - generic [ref=e358]:
+                          - button "Format Bold" [ref=e359] [cursor=pointer]
+                          - button "Format Italics" [ref=e361] [cursor=pointer]
+                          - button "Format Underline" [ref=e363] [cursor=pointer]
+                          - button "Format Strikethrough" [ref=e365] [cursor=pointer]
+                          - button "Format Strikethrough" [ref=e367] [cursor=pointer]
+                        - generic [ref=e369]:
+                          - textbox [ref=e370]
+                          - generic: Enter your content...
+                      - generic [ref=e372]: 0/6000
+                    - generic [ref=e374]: "* Product Description -TH"
+                    - generic [ref=e375]:
+                      - generic [ref=e377]:
+                        - generic [ref=e378]:
+                          - button "Format Bold" [ref=e379] [cursor=pointer]
+                          - button "Format Italics" [ref=e381] [cursor=pointer]
+                          - button "Format Underline" [ref=e383] [cursor=pointer]
+                          - button "Format Strikethrough" [ref=e385] [cursor=pointer]
+                          - button "Format Strikethrough" [ref=e387] [cursor=pointer]
+                        - generic [ref=e389]:
+                          - textbox [ref=e390]
+                          - generic: Enter your content...
+                      - generic [ref=e392]: 0/6000
+                - generic [ref=e394]:
+                  - heading "Specification" [level=4] [ref=e396]
+                  - generic [ref=e397]: Available only after you select a product category
+                - generic [ref=e400]:
+                  - heading "Sales information" [level=4] [ref=e402]
+                  - generic [ref=e403]: Available only after you select a product category
+                - generic [ref=e405]:
+                  - heading "Shipping" [level=4] [ref=e407]
+                  - generic [ref=e408]: Available only after you select a product category
+                - generic [ref=e411]:
+                  - heading "Others" [level=4] [ref=e413]
+                  - generic [ref=e414]: Available only after you select a product category
+                - generic [ref=e418]:
+                  - button "Cancel" [ref=e420] [cursor=pointer]:
+                    - generic [ref=e421]: Cancel
+                  - button "Save Draft" [disabled] [ref=e423]:
+                    - generic: Save Draft
+                  - button "Submit" [disabled] [ref=e425]:
+                    - generic: Submit
+          - generic [ref=e426]: Amaze Seller Center v1.43.0 - System version 20251015 - ©2023
+          - generic [ref=e429]:
+            - button [ref=e431] [cursor=pointer]:
+              - img [ref=e433]
+            - button "comment" [ref=e439] [cursor=pointer]:
+              - img "comment" [ref=e441]:
+                - img [ref=e442]
+            - button "question-circle" [ref=e450] [cursor=pointer]:
+              - img "question-circle" [ref=e452]:
+                - img [ref=e453]
+  - generic [ref=e456]:
+    - dialog "Edit Category":
+      - generic [ref=e457]:
+        - button "Close" [ref=e458] [cursor=pointer]:
+          - img "close" [ref=e460]:
+            - img [ref=e461]
+        - generic [ref=e464]: Edit Category
+        - generic [ref=e465]:
+          - generic [ref=e468]:
+            - generic [ref=e471]:
+              - textbox "Please input at least 1 character" [ref=e472]
+              - button "search" [ref=e474] [cursor=pointer]:
+                - img "search" [ref=e476]:
+                  - img [ref=e477]
+            - generic [ref=e480]:
+              - menu [ref=e482]:
+                - menuitem "Fresh Food right" [ref=e483] [cursor=pointer]:
+                  - generic [ref=e485]:
+                    - generic [ref=e486]: Fresh Food
+                    - img "right" [ref=e488]:
+                      - img [ref=e489]
+                - menuitem "Fashion right" [ref=e491] [cursor=pointer]:
+                  - generic [ref=e493]:
+                    - generic [ref=e494]: Fashion
+                    - img "right" [ref=e496]:
+                      - img [ref=e497]
+                - menuitem "Digital Goods right" [ref=e499] [cursor=pointer]:
+                  - generic [ref=e501]:
+                    - generic [ref=e502]: Digital Goods
+                    - img "right" [ref=e504]:
+                      - img [ref=e505]
+                - menuitem "Liquor and Tobacco right" [ref=e507] [cursor=pointer]:
+                  - generic [ref=e509]:
+                    - generic [ref=e510]: Liquor and Tobacco
+                    - img "right" [ref=e512]:
+                      - img [ref=e513]
+                - menuitem "Electronics right" [ref=e515] [cursor=pointer]:
+                  - generic [ref=e517]:
+                    - generic [ref=e518]: Electronics
+                    - img "right" [ref=e520]:
+                      - img [ref=e521]
+                - menuitem "Lifestyle right" [ref=e523] [cursor=pointer]:
+                  - generic [ref=e525]:
+                    - generic [ref=e526]: Lifestyle
+                    - img "right" [ref=e528]:
+                      - img [ref=e529]
+                - menuitem "Fresh Made right" [ref=e531] [cursor=pointer]:
+                  - generic [ref=e533]:
+                    - generic [ref=e534]: Fresh Made
+                    - img "right" [ref=e536]:
+                      - img [ref=e537]
+                - menuitem "Dry Food right" [ref=e539] [cursor=pointer]:
+                  - generic [ref=e541]:
+                    - generic [ref=e542]: Dry Food
+                    - img "right" [ref=e544]:
+                      - img [ref=e545]
+                - 'menuitem "DG: Non-Food right" [ref=e547] [cursor=pointer]':
+                  - generic [ref=e549]:
+                    - generic [ref=e550]: "DG: Non-Food"
+                    - img "right" [ref=e552]:
+                      - img [ref=e553]
+                - menuitem "Uncategorized right" [ref=e555] [cursor=pointer]:
+                  - generic [ref=e557]:
+                    - generic [ref=e558]: Uncategorized
+                    - img "right" [ref=e560]:
+                      - img [ref=e561]
+                - menuitem "Other Products & Services right" [ref=e563] [cursor=pointer]:
+                  - generic [ref=e565]:
+                    - generic [ref=e566]: Other Products & Services
+                    - img "right" [ref=e568]:
+                      - img [ref=e569]
+                - menuitem "Store Services right" [ref=e571] [cursor=pointer]:
+                  - generic [ref=e573]:
+                    - generic [ref=e574]: Store Services
+                    - img "right" [ref=e576]:
+                      - img [ref=e577]
+              - generic [ref=e579]:
+                - menu
+              - generic [ref=e580]:
+                - menu
+              - generic [ref=e581]:
+                - menu
+              - generic [ref=e582]:
+                - menu
+              - generic [ref=e583]:
+                - menu
+          - generic [ref=e584]:
+            - generic [ref=e585]: "The current selected:"
+            - generic:
+              - generic:
+                - strong
+        - generic [ref=e586]:
+          - button "Cancel" [ref=e587] [cursor=pointer]:
+            - generic [ref=e588]: Cancel
+          - button "OK" [disabled] [ref=e589]:
+            - generic: OK
+```

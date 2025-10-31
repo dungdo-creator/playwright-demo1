@@ -29,6 +29,7 @@ test.describe('Edit Product - Seller Center UAT', () => {
 
     // 4️⃣ Nhấn nút Edit
     await firstRow.locator('a:has-text("Edit")').click();
+    await page.waitForTimeout(1000);
 
     // 5️⃣ Chờ chuyển sang trang Edit
     await page.waitForURL(/\/portal\/product\//, { timeout: 15000 });
@@ -37,33 +38,33 @@ test.describe('Edit Product - Seller Center UAT', () => {
     // 6️⃣ Cập nhật Product Name & giá
     console.log('🧩 Updating product info...');
     const nameEn = page.locator('input[name="basicInfo.nameEn"]');
-    await page.waitForTimeout(500);
+    await page.waitForTimeout(1000);
     const nameTh = page.locator('input[name="basicInfo.nameTh"]');
-    await page.waitForTimeout(500);
+    await page.waitForTimeout(1000);
     const newName = `${currentName}_Updated_${Date.now()}`;
-    await page.waitForTimeout(500);
+    await page.waitForTimeout(1000);
 
     await nameEn.scrollIntoViewIfNeeded();
     await nameEn.fill('');
     await nameEn.fill(newName);
-    await page.waitForTimeout(500);
+    await page.waitForTimeout(1000);
 
     await nameTh.scrollIntoViewIfNeeded();
     await nameTh.fill('');
     await nameTh.fill(newName);
-    await page.waitForTimeout(500);
+    await page.waitForTimeout(1000);
 
     // 💰 Đảm bảo thay đổi giá trị thực sự để bật nút Save
     const priceInput = page.locator('input[name="saleInfo.price"]');
     if (await priceInput.isVisible()) {
       await priceInput.scrollIntoViewIfNeeded();
       const currentPrice = await priceInput.inputValue();
-      await page.waitForTimeout(500);
+      await page.waitForTimeout(1000);
       const newPrice = currentPrice === '199' ? '290' : '199';
       await priceInput.fill('');
       await priceInput.fill(newPrice);
       console.log(`💰 Updated price to ${newPrice}`);
-      await page.waitForTimeout(800);
+      await page.waitForTimeout(1000);
     }
 
     // 💾 Chờ nút Save khả dụng rồi click
